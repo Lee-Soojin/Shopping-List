@@ -1,0 +1,82 @@
+:root {
+  --background-color: #f0ebef;
+  --header-color: linear-gradient(94deg, #fcd3ff, #fde7bc);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(240, 218, 221);
+}
+body {
+  margin: auto;
+  border-radius: 12px;
+}
+
+header {
+  text-align: center;
+  height: 40px;
+  background: var(--header-color);
+  font-family: "Poppins", sans-serif;
+  color: rgb(214, 111, 142);
+  border-radius: 12px 12px 0 0;
+  padding-top: 4px;
+}
+
+.list_base {
+  margin: auto;
+  background-color: var(--background-color);
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 5px lightgrey;
+  width: 400px;
+}
+
+li {
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 20px;
+  border-bottom: 2px solid pink;
+  list-style: none;
+  padding: 4px;
+}
+
+ul {
+  height: 480px;
+  margin-right: 40px;
+}
+
+.delBtn {
+  font-size: 24px;
+  color: rgb(255, 0, 85);
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 4px solid rgb(245, 153, 196);
+  height: 32px;
+}
+
+.addBtn {
+  border-radius: 100%;
+  color: white;
+  background-color: black;
+  width: 48px;
+  height: 48px;
+  font-size: 36px;
+}
+
+button {
+  border: none;
+}
+
+footer {
+  background: var(--header-color);
+  border-radius: 0 0 12px 12px;
+  text-align: center;
+}
+
+::placeholder {
+  color: rgba(175, 92, 172, 0.459);
+}
